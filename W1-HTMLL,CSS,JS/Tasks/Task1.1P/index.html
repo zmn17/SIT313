@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zamin Ahmadi</title>
+    <link href="./style.css" rel="stylesheet" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="nav-item">
+            <a href="#" class="nav-link active" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#work" class="nav-link">Work</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="about" class="header-img">
+        <img src="./asset/header.jpg" alt="header image" />
+        <h1 id="intro">Hey, I'm Zamin Ahmadi!!!!</h1>
+      </div>
+      <div id="me">
+        <img src="./asset/1.jpeg" alt="profile picture" />
+        <p>
+          I'm a full stack developer with a passion for creating user-friendly
+          and efficient web applications.
+        </p>
+        <span id="line"></span>
+      </div>
+      <div id="work">
+        <h3>Here's what I've done so far!</h3>
+        <div id="projects" class="container row">
+          <div class="card col">
+            <img src="./asset/travel.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">TripMate</h5>
+              <p class="card-text">
+                It's a travel API backend service that allows user to search
+                through AirBnb places/homes and book them for holiday or trips.
+                The good feature about this is that the user can create trip,
+                he/she can add his/her friends to this trip. The app then tracks
+                the expenses of the trip, the fees of the place/home booked from
+                AirBnb and generate a report to the user. This API service is
+                built with ASP.NET Core in C#, PostgreSQL for data storage and
+                management, it scrapes data from Airbnb website for the Airbnb
+                home/place to be booked for the trip.
+              </p>
+            </div>
+          </div>
+          <div class="card col" style="width: 20rem">
+            <img src="./asset/weather.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Weather App</h5>
+              <p class="card-text">
+                It's a full stack weather app that allows user to search for
+                weather of any city in the world. The app is built with React
+                for frontend and NodeJS for backend.
+              </p>
+            </div>
+          </div>
+          <div class="card col" style="width: 36rem">
+            <img src="./asset/data.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">SportAPI</h5>
+              <p class="card-text">
+                It's a sports API backend service that allows user to search
+                through sports events by scraping data from sport websites and
+                storing them in database. The app is built with ASP.NET Core in
+                C#, PostgreSQL for data storage and management.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="photos">
+        <h3>My Photos</h3>
+        <div id="photos-container">
+          <img src="./asset/football.jpg" alt="football" id="ftbl" />
+          <img src="./asset/cl.jpg" alt="cl" />
+          <img src="./asset/coding.jpg" alt="coding" />
+          <img src="./asset/rm.jpg" alt="rm" />
+          <img src="./asset/bb.jpg" alt="breaking bad" />
+          <img src="./asset/parrot.jpg" alt="parrot" />
+          <img src="./asset/sf.jpg" alt="scarface" />
+        </div>
+      </div>
+      <div id="contact">
+        <h3>Contact Me</h3>
+        <form>
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <input type="text" placeholder="Message" />
+          <button>Submit</button>
+        </form>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

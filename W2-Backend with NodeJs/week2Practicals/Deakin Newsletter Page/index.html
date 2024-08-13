@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Deakin Newsletter</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form method="post" action="/formData">
+      <div class="mb-3">
+        <input
+          type="text"
+          class="form-control"
+          id="fname"
+          name="fname"
+          placeholder="First Name"
+        />
+      </div>
+      <div class="mb-3">
+        <input
+          type="text"
+          class="form-control"
+          id="lname"
+          name="lname"
+          placeholder="Last Name"
+        />
+      </div>
+      <div class="mb-3">
+        <input
+          type="email"
+          class="form-control"
+          id="email"
+          name="email"
+          placeholder="Email"
+        />
+      </div>
+      <button type="submit" class="btn btn-primary">Sign Up</button>
+    </form>
+  </body>
+</html>
