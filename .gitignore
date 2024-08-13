@@ -1,0 +1,7 @@
+# Ignore node_modules in all subdirectories
+**/node_modules/
+
+# Ignore .DS_Store files in all directories
+**/.DS_Store
+
+./.DS_Store
