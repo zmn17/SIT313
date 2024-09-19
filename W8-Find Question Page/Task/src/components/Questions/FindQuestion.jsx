@@ -3,7 +3,6 @@ import { collection, getDocs, deleteDoc, doc } from "firebase/firestore";
 import { db } from "../../utils/firebase";
 import QuestionCard from "./QuestionCard";
 import { Button, Form, Input } from "semantic-ui-react";
-import Draggable from "react-draggable";
 
 const FindQuestion = () => {
   const [questions, setQuestions] = useState([]);
